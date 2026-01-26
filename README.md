@@ -3,10 +3,16 @@ Personal Website V2 - ericreuhl.de
 
 **#Scope**
 V2 - Focus on simplicity, structure and scalability
-Only relevant content - no unecessary fancy designs or functionalities
 
-**#Inspired by**
-https://sebastianhahner.de/
+**Requirements**
+node.js
+npm
+
+**Project Structure**
+..Folder structure here..
+
+**#Formatter**
+Prettier
 
 **#Coding Techstack**
 GIT
@@ -26,3 +32,6 @@ Fix– bug fixes
 Docs– changes to the documentation
 Style– style or formatting change
 Perf – improves code performance
+
+**#Design Inspired by**
+https://sebastianhahner.de/

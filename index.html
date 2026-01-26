@@ -1,26 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Eric Reuhl</title>
-    <meta name="description" content="Eric Reuhl portfolio website">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="description" content="Eric Reuhl portfolio website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!--Vite-->
     <script type="module" src="/src/main.js"></script>
 
     <!--Tailwind CSS-->
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
 
     <!--CSS-->
 
     <!--JS-->
   </head>
-  <body>
-      <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <body class="bg-[rgb(28,28,29)] text-white">
+    <header class="border-b">
+      <nav class="max-w-4xl mx-auto flex items-center justify-between py-4">
+        <a href="/">Eric Reuhl</a>
+        <ul class="flex gap-4">
+          <li><a href="/">Overview</a></li>
+          <li><a href="/">Cv</a></li>
+          <li><a href="/">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <!--Container width-->
+    <div class="max-w-4xl mx-auto">
+      <aside></aside>
+
+      <main></main>
+
+      <footer></footer>
+    </div>
   </body>
 </html>
