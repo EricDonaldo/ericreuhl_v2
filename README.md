@@ -12,5 +12,17 @@ https://sebastianhahner.de/
 GIT
 HTML
 CSS
+VITE
 TAILWIND CSS
 JAVASCRIPT
+
+**#Git Setup**
+Repo:
+git@github.com:EricDonaldo/ericreuhl_v2.git
+
+Commit:
+Feat– feature
+Fix– bug fixes
+Docs– changes to the documentation
+Style– style or formatting change
+Perf – improves code performance
