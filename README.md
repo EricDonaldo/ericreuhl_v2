@@ -1,33 +1,21 @@
-**# ericreuhl_v2**
+READ **/docs/documentation.md** for details!
+
+**ericreuhl_v2**
 Personal Website V2 - ericreuhl.de
 
-**#Scope**
-V2 - Focus on simplicity, structure and scalability
+**Scope**
+Version 2 - focuses on content and code simplicity, clear structure, long-term scalability and maintainability
 
-**#Deployment**
-Only /dist/ and /public/ will be deployed to Github Pages
-
-**#Formatter**
-Prettier
-
-**#Coding Techstack**
-GIT
-HTML
-CSS
-VITE
-TAILWIND CSS
-JAVASCRIPT
-
-**#Git Setup**
+**Git practice**
 Repo:
 git@github.com:EricDonaldo/ericreuhl_v2.git
 
-Commit:
+Commit messages:
 Feat– feature
 Fix– bug fixes
 Docs– changes to the documentation
 Style– style or formatting change
 Perf – improves code performance
 
-**#Design Inspired by**
+**Website design Inspired by**
 https://sebastianhahner.de/
