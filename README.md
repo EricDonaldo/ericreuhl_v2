@@ -4,12 +4,8 @@ Personal Website V2 - ericreuhl.de
 **#Scope**
 V2 - Focus on simplicity, structure and scalability
 
-**Requirements**
-node.js
-npm
-
-**Project Structure**
-..Folder structure here..
+**#Deployment**
+Only /dist/ and /public/ will be deployed to Github Pages
 
 **#Formatter**
 Prettier
