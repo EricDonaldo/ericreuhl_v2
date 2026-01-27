@@ -1,26 +1,31 @@
 import React from 'react';
 import Hero from '../components/hero';
+import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 const home = () => {
   return (
     <>
       <Hero />
-      <div className="min-h-screen bg-slate-50 w-full flex items-center justify-center">
-        <div className="flex flex-col items-left max-w-3xl gap-5">
-          <h1 className="text-6xl font-bold text-black text-center mt-20">
-            Home Page
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-            no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
+      <div className="bg-slate-800 w-full flex items-center justify-center py-4 text-slate-100">
+        <div className="flex flex-col gap-4">
+          <div className="group relative cursor-pointer">
+            <FaGithub className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl hover:text-slate-300 hover:scale-115 transition duration-300" />
+            <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 px-2 py-1 bg-slate-700 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition duration-300 whitespace-nowrap">
+              GitHub
+            </span>
+          </div>
+          <div className="group relative cursor-pointer">
+            <FaLinkedin className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl hover:text-slate-300 hover:scale-115 transition duration-300" />
+            <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 px-2 py-1 bg-slate-700 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition duration-300 whitespace-nowrap">
+              LinkedIn
+            </span>
+          </div>
+          <div className="group relative cursor-pointer">
+            <FaWhatsapp className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl hover:text-slate-300 hover:scale-115 transition duration-300" />
+            <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 px-2 py-1 bg-slate-700 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition duration-300 whitespace-nowrap">
+              WhatsApp
+            </span>
+          </div>
         </div>
       </div>
     </>
