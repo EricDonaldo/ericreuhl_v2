@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Sidebar = ({ isOpen, onClose }) => {
   return (
     <div
-      className={`fixed right-0 top-20 h-screen bg-slate-800 shadow-lg transition-all duration-300 ease-in-out ${
+      className={`z-50 fixed right-0 top-20 h-screen bg-slate-800 shadow-lg transition-all duration-300 ease-in-out ${
         isOpen ? 'w-64' : 'w-0 overflow-hidden'
       }`}
     >

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ onMenuClick }) => {
   return (
-    <nav className="bg-slate-800 shadow-lg flex items-center justify-around py-4 fixed top-0 left-0 w-full">
+    <nav className="bg-slate-800 shadow-lg flex items-center justify-around py-4 fixed top-0 left-0 w-full z-50">
       <Link to="/">
         <span className="font-semibold text-lg flex items-center gap-3 text-blue-400 hover:text-blue-300">
           <BiCodeBlock className="text-6xl" />
