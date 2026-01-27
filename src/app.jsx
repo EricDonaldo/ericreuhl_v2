@@ -6,23 +6,27 @@ import Home from './routes/home';
 import About from './routes/about';
 import Contact from './routes/contact';
 import Projects from './routes/projects';
+import Impressum from './routes/impressum';
+import Footer from './components/footer';
 
 export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-gray-50">
+      <div className="flex flex-col min-h-screen bg-gray-50">
         <Navbar onMenuClick={() => setSidebarOpen(!sidebarOpen)} />
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-        <div className="pt-24">
+        <div className="flex-1 flex flex-col">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/impressum" element={<Impressum />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </>
   );
