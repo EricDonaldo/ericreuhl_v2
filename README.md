@@ -5,6 +5,7 @@ Personal Website V2 - ericreuhl.de
 
 **Scope**
 Version 2 - focuses on content and code simplicity, clear structure, long-term scalability and maintainability
+YAGNI principle - You ain't gonna need it
 
 **Git practice**
 Repo:
@@ -17,6 +18,3 @@ Fix– bug fixes
 Docs– changes to the documentation
 Style– style or formatting change
 Perf – improves code performance
-
-**Website design Inspired by**
-https://sebastianhahner.de/

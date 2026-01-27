@@ -15,30 +15,31 @@ Added React JSX later to the project --> change index.html, rename main.js to ma
 **Code**
 HTML
 TAILWIND CSS
-JS
 REACT JSX
 
-**Frameworks**
-TAILWIND
-REACT
-REACT ROUTER
+**Libraries & Frameworks**
+VITE --> Build tool & dev server
+REACT --> UI library
+TAILWIND --> Utility-first CSS framework
+REACT ROUTER DOM --> Client-side routing
+REACT ICONS --> Icon library
+GH-PAGES --> GitHub Pages deployment
 
 **Formatter**
-Prettier
+Prettier configured
 
 **Relevant project structure**
 /dist/ --> Production Environment which gets published to Github Pages
-/dist/assets --> Generated CSS and JS
-/dist/CNAME --> Custom Domain Name for Github Pages
-/dist/index.html --> PRD index.html
 
 /public/ --> Static assets directory
 /public/CNAME --> Custom Domain Name for Github Pages
 
 /src/ --> Source code directory
-/src/main.js --> Main JavaScript entry point
-/src/style.css --> Main stylesheet
-/src/pages/ --> Subpages
+/src/main.jsx --> React JSX entry point (ReactDOM render root)
+/src/app.jsx --> Root component (main app logic & routing)
+/src/style.css --> Global stylesheet with Tailwind imports
+/src/components/ --> Reusable React components
+/src/components/navbar.jsx --> Navigation bar component
 
 index.html --> Main HTML entry point
 package.json --> Project dependencies and scripts
