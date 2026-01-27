@@ -18,6 +18,11 @@ TAILWIND CSS
 JS
 REACT JSX
 
+**Frameworks**
+TAILWIND
+REACT
+REACT ROUTER
+
 **Formatter**
 Prettier
 
