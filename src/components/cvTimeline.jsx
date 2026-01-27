@@ -6,17 +6,17 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import SchoolIcon from '@mui/icons-material/School';
 import Typography from '@mui/material/Typography';
+import LaptopIcon from '@mui/icons-material/Laptop';
 
 const cvTimeline = () => {
   return (
     <div className="my-auto py-4">
       <Timeline position="alternate">
-        <TimelineItem>
+        <TimelineItem className="hover:scale-115 transition duration-300 hover:bg-slate-100">
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
             align="right"
@@ -27,8 +27,8 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot>
-              <FastfoodIcon />
+            <TimelineDot color="primary">
+              <LaptopIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -41,7 +41,7 @@ const cvTimeline = () => {
             </Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem className="hover:scale-115 transition duration-300 hover:bg-slate-100">
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
             align="right"
@@ -52,8 +52,8 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot>
-              <FastfoodIcon />
+            <TimelineDot color="primary">
+              <LaptopIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -64,7 +64,7 @@ const cvTimeline = () => {
             <Typography>Deutsche Bank AG</Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem className="hover:scale-115 transition duration-300 hover:bg-slate-100">
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
             variant="body2"
@@ -74,8 +74,8 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
-              <LaptopMacIcon />
+            <TimelineDot>
+              <LocalLibraryIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -86,7 +86,7 @@ const cvTimeline = () => {
             <Typography>Apprenticeship - Deutsche Bank AG</Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem className="hover:scale-115 transition duration-300 hover:bg-slate-100">
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
             variant="body2"
@@ -96,10 +96,10 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary" variant="outlined">
-              <HotelIcon />
+            <TimelineDot>
+              <VolunteerActivismIcon />
             </TimelineDot>
-            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+            <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2 }}>
             <Typography variant="h6" component="span">
@@ -108,7 +108,7 @@ const cvTimeline = () => {
             <Typography>Malteser Hilfsdienst e.V.</Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem className="hover:scale-115 transition duration-300 hover:bg-slate-100">
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
             variant="body2"
@@ -117,9 +117,9 @@ const cvTimeline = () => {
             Jan 2012 - Jan 2020
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-            <TimelineDot color="secondary">
-              <RepeatIcon />
+            <TimelineConnector />
+            <TimelineDot>
+              <SchoolIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
