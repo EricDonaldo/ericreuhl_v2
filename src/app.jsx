@@ -1,7 +1,11 @@
+import Navbar from "./components/navbar";
+
 export default function App() {
   return (
-    <div>
-      <h1 class="text-4xl">App Component</h1>
-    </div>
+    <>
+        <div className='min-h-screen flex flex-col bg-gray-50'>
+            <Navbar />
+        </div>
+    </>
   );
 }
