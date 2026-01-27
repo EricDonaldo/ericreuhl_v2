@@ -3,11 +3,11 @@ import { BiCodeBlock } from 'react-icons/bi';
 import { IoMenu } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
-const navbar = () => {
+const Navbar = ({ onMenuClick }) => {
   return (
     <nav className="bg-slate-800 shadow-lg flex items-center justify-around py-4 fixed top-0 left-0 w-full">
       <Link to="/">
-        <span className="font-semibold text-lg flex items-center gap-3 text-blue-400">
+        <span className="font-semibold text-lg flex items-center gap-3 text-blue-400 hover:text-blue-300">
           <BiCodeBlock className="text-6xl" />
           <span className="font-semibold text-2xl">Eric Reuhl</span>
         </span>
@@ -44,10 +44,13 @@ const navbar = () => {
       </div>
 
       <div className="flex sm:hidden">
-        <IoMenu className="text-5xl" />
+        <IoMenu
+          onClick={onMenuClick}
+          className="text-5xl text-blue-400 hover:text-blue-300 cursor-pointer"
+        />
       </div>
     </nav>
   );
 };
 
-export default navbar;
+export default Navbar;
