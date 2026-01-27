@@ -1,15 +1,14 @@
 import React from 'react';
 import Hero from '../components/hero';
 import Socials from '../components/socials';
-import LatestBlogs from '../components/latestBlogs';
-import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import CvTimeline from '../components/cvTimeline';
 
 const home = () => {
   return (
     <>
       <Hero />
       <Socials />
-      <LatestBlogs />
+      <CvTimeline />
     </>
   );
 };
