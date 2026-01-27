@@ -10,12 +10,13 @@ Add tailwind plugin in vite config; Add base in Vite config
 Install gh-pages (guide https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)
 Use package.json config base: '/'
 CNAME file for custom domain
+Added React JSX later to the project --> change index.html, rename main.js to main.jsx, add react plugin to vite vonfig
 
 **Code**
 HTML
-VITE
 TAILWIND CSS
 JS
+REACT JSX
 
 **Formatter**
 Prettier

@@ -11,6 +11,7 @@ Repo:
 git@github.com:EricDonaldo/ericreuhl_v2.git
 
 Commit messages:
+Setup- Change to setup
 Feat– feature
 Fix– bug fixes
 Docs– changes to the documentation
