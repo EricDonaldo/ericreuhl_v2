@@ -15,12 +15,14 @@ export default function App() {
       <div className="min-h-screen flex flex-col bg-gray-50">
         <Navbar onMenuClick={() => setSidebarOpen(!sidebarOpen)} />
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
+        <div className="pt-24">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </div>
       </div>
     </>
   );
