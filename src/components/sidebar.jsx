@@ -26,11 +26,11 @@ const Sidebar = ({ isOpen, onClose }) => {
         </Link>
 
         <Link
-          to="/contact"
+          to="/skills"
           onClick={onClose}
           className="py-2 px-3 text-lg font-light text-white hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300"
         >
-          Contact
+          Skills
         </Link>
 
         <Link

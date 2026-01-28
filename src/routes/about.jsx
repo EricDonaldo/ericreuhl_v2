@@ -41,18 +41,18 @@ const about = () => {
           them in a professional environment.
         </p>
         <p>
-          Since my internal transfer, {yearsSinceBankStart} years have passed.
-          In my Technical Vendor Governance and File Storage Admin role , I
-          gained comprehensive insights into working within a large corporate
-          environment. Alongside building technical skills (skills link), I took
-          on early responsibility as ITAO and learned how structured processes,
-          cross-team collaboration, and professional communication function in a
-          global organization. At the same time, I realized that I wanted to
-          further develop my professional profile and explore additional
-          opportunities within IT — particularly by deepening my passion for
-          software development. For this reason, I decided to deliberately
-          expand my qualifications and begin a Bachelor’s degree in Computer
-          Science in 2026.
+          Since my permanent employment, {yearsSinceBankStart} years have
+          passed. In my Technical Vendor Governance and File Storage Admin role
+          , I gained comprehensive insights into working within a large
+          corporate environment. Alongside building technical skills (skills
+          link), I took on early responsibility as ITAO and learned how
+          structured processes, cross-team collaboration, and professional
+          communication function in a global organization. At the same time, I
+          realized that I wanted to further develop my professional profile and
+          explore additional opportunities within IT — particularly by deepening
+          my passion for software development. For this reason, I decided to
+          deliberately expand my qualifications and begin a Bachelor’s degree in
+          Computer Science in 2026.
         </p>
         <p>
           To fully focus on my academic development and gain additional hands-on
@@ -62,7 +62,7 @@ const about = () => {
       </div>
       <div className="flex flex-col w-full mt-12">
         <p className="text-center italic text-gray-400 underline">
-          Click on the items below to preview the corresponding certificate
+          Click on the icons below to preview the corresponding certificate
         </p>
         <CvTimeline />
       </div>

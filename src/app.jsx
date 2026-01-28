@@ -4,7 +4,7 @@ import Navbar from './components/navbar';
 import Sidebar from './components/sidebar';
 import Home from './routes/home';
 import About from './routes/about';
-import Contact from './routes/contact';
+import Skills from './routes/skills';
 import Projects from './routes/projects';
 import Impressum from './routes/impressum';
 import Footer from './components/footer';
@@ -32,7 +32,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/impressum" element={<Impressum />} />
           </Routes>

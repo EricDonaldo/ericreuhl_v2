@@ -29,10 +29,10 @@ const Navbar = ({ onMenuClick }) => {
         </Link>
 
         <Link
-          to="/contact"
+          to="/Skills"
           className="py-1 px-3 text-lg font-light text-white hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300"
         >
-          Contact
+          Skills
         </Link>
 
         <Link
