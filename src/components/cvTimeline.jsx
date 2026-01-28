@@ -118,14 +118,16 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot
-              onClick={() =>
-                window.open('/pdfs/Abiturzeugnis_Eric_Reuhl.pdf', '_blank')
-              }
-              sx={{ cursor: 'pointer' }}
+            <a
+              href="/pdfs/Abiturzeugnis_Eric_Reuhl.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
             >
-              <SchoolIcon />
-            </TimelineDot>
+              <TimelineDot sx={{ cursor: 'pointer' }}>
+                <SchoolIcon />
+              </TimelineDot>
+            </a>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2 }}>
