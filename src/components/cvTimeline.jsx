@@ -11,6 +11,7 @@ import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import SchoolIcon from '@mui/icons-material/School';
 import Typography from '@mui/material/Typography';
 import LaptopIcon from '@mui/icons-material/Laptop';
+import Tooltip from '@mui/material/Tooltip';
 
 const cvTimeline = () => {
   return (
@@ -27,9 +28,11 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
-              <LaptopIcon />
-            </TimelineDot>
+            <Tooltip title="No file available yet">
+              <TimelineDot color="primary">
+                <LaptopIcon />
+              </TimelineDot>
+            </Tooltip>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -52,9 +55,11 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot color="primary">
-              <LaptopIcon />
-            </TimelineDot>
+            <Tooltip title="No file available yet">
+              <TimelineDot color="primary">
+                <LaptopIcon />
+              </TimelineDot>
+            </Tooltip>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -74,9 +79,16 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot>
-              <LocalLibraryIcon />
-            </TimelineDot>
+            <a
+              href="/pdfs/ausbildung.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+              <TimelineDot sx={{ cursor: 'pointer' }}>
+                <LocalLibraryIcon />
+              </TimelineDot>
+            </a>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2 }}>
@@ -96,9 +108,16 @@ const cvTimeline = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot>
-              <VolunteerActivismIcon />
-            </TimelineDot>
+            <a
+              href="/pdfs/sani_zeugnis.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+              <TimelineDot sx={{ cursor: 'pointer' }}>
+                <VolunteerActivismIcon />
+              </TimelineDot>
+            </a>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2 }}>
