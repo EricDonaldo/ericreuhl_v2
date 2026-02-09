@@ -31,7 +31,6 @@ const hero = () => {
               'Coding',
               'Web Development',
               'AI',
-              'Machine Learning',
               'and more...',
             ]}
             typeSpeed={40}

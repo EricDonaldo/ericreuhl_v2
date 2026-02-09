@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -14,8 +15,25 @@ import LaptopIcon from '@mui/icons-material/Laptop';
 import Tooltip from '@mui/material/Tooltip';
 
 const cvTimeline = () => {
+  const location = useLocation();
+  const isAboutPage = location.pathname === '/about';
+
   return (
-    <div className="my-auto py-4">
+    <div className="my-auto py-4 flex flex-col">
+      {isAboutPage && (
+        <a href="/pdfs/Lebenslauf.pdf" target="_blank" className="mx-auto">
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center cursor-pointer">
+            <svg
+              className="fill-current w-4 h-4 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <span>Download CV</span>
+          </button>
+        </a>
+      )}
       <Timeline position="alternate">
         <TimelineItem className="hover:scale-115 transition duration-300 hover:bg-slate-100">
           <TimelineOppositeContent
