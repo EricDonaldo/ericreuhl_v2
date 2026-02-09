@@ -12,6 +12,10 @@ const about = () => {
     (1000 * 60 * 60 * 24 * 365.25)
   ).toFixed(1);
 
+  const toast = (sc) => {
+    toast(sc);
+  };
+
   return (
     <div className="bg-slate-50  mx-6 flex-col justify-center text-justify mt-30">
       <div className="flex w-full items-center flex-col gap-4 text-[1.1rem]">
@@ -90,16 +94,16 @@ const about = () => {
         </p>
         <p>
           I enjoy staying active by going to the gym, playing soccer, and riding
-          motorcycles. I also enjoy spending time taking care of our family
-          dogs. Although they are not currently living in my household, I know
-          that I will have a dog of my own in the near future. By the time you
-          read this, that might already be the case.
+          motorcycles. Furthermore, I love spending time taking care of our
+          family dogs. Although they are not currently living in my household, I
+          know that I will have a dog of my own in the near future. By the time
+          you read this, that might already be the case.
         </p>
         <p>
-          I haven't travelled as much as I would like to travel. Currently, I
-          have been to: map interactive heres
+          I haven't travelled as much as I would like to yet, but I plan to use
+          my future vacations for exploring new places, hiking, and experiencing
+          different cultures.
         </p>
-        <p></p>
       </div>
     </div>
   );
