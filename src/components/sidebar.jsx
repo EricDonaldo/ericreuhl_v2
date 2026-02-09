@@ -16,7 +16,6 @@ const Sidebar = ({ isOpen, onClose }) => {
         >
           Home
         </Link>
-
         <Link
           to="/about"
           onClick={onClose}
@@ -24,7 +23,6 @@ const Sidebar = ({ isOpen, onClose }) => {
         >
           About
         </Link>
-
         <Link
           to="/skills"
           onClick={onClose}
@@ -32,7 +30,7 @@ const Sidebar = ({ isOpen, onClose }) => {
         >
           Skills
         </Link>
-
+        {/*
         <Link
           to="/projects"
           onClick={onClose}
@@ -40,6 +38,7 @@ const Sidebar = ({ isOpen, onClose }) => {
         >
           Projects
         </Link>
+         */}
       </div>
     </div>
   );
