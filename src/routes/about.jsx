@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CvTimeline from '../components/cvTimeline';
 
 const about = () => {
@@ -42,13 +43,15 @@ const about = () => {
           Since my permanent employment, {yearsSinceBankStart} years have
           passed. In my Technical Vendor Governance and File Storage Admin role
           , I gained comprehensive insights into working within a large
-          corporate environment. Alongside building technical skills (skills
-          link), I took on early responsibility as ITAO and learned how
-          structured processes, cross-team collaboration, and professional
-          communication function in a global organization. At the same time, I
-          realized that I wanted to further develop my professional profile and
-          explore additional opportunities within IT — particularly by deepening
-          my passion for software development. For this reason, I decided to
+          corporate environment. Alongside building technical{' '}
+          <Link to="/skills" className="text-blue-600 hover:underline">
+            skills
+          </Link>{' '}
+          , I took on early responsibility as ITAO and learned how structured
+          processes, cross-team collaboration, and professional communication
+          function in a global organization. At the same time, I realized that I
+          wanted to further develop my professional profile and explore
+          additional opportunities within IT. For this reason, I decided to
           deliberately expand my qualifications and begin a Bachelor’s degree in
           Computer Science in 2026.
         </p>
@@ -56,27 +59,47 @@ const about = () => {
           To fully focus on my academic development and gain additional hands-on
           experience in different technical environments, I decided to pursue my
           studies full-time and explore new opportunities as a working student.
+          Check out my{' '}
+          <Link to="/skills" className="text-blue-600 hover:underline">
+            skills
+          </Link>{' '}
+          to learn more about my technical expertise.
         </p>
       </div>
       <div className="flex flex-col w-full mt-12">
-        <p className="text-center italic text-gray-400 underline">
-          Click on the icons below to preview the corresponding certificate
-        </p>
+        <div className="md:hidden">
+          <p className="text-center italic text-gray-400 underline">
+            Gray icons are clickable and allow you to download the corresponding
+            certificate.
+          </p>
+          <p className="text-center italic text-gray-400 underline">
+            Blue icons represent ongoing certifications for which certificates
+            are not yet available.
+          </p>
+        </div>
         <CvTimeline />
       </div>
-      <div className="flex w-full items-center flex-col gap-4 text-[1.1rem] mb-12">
+      <div className="flex w-full items-center flex-col gap-4 text-[1.1rem] mb-12 my-6">
         <h1 className="text-6xl font-bold text-black text-center">Private</h1>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
+          Outside of my professional and academic pursuits, I value continuous
+          personal growth, structure, and balance. While I prefer a simple and
+          well-structured lifestyle, I am drawn to activities that feel
+          meaningful and fulfilling. Experiences that leave lasting memories are
+          especially important to me.
         </p>
+        <p>
+          I enjoy staying active by going to the gym, playing soccer, and riding
+          motorcycles. I also enjoy spending time taking care of our family
+          dogs. Although they are not currently living in my household, I know
+          that I will have a dog of my own in the near future. By the time you
+          read this, that might already be the case.
+        </p>
+        <p>
+          I haven't travelled as much as I would like to travel. Currently, I
+          have been to: map interactive heres
+        </p>
+        <p></p>
       </div>
     </div>
   );

@@ -20,7 +20,6 @@ const Navbar = ({ onMenuClick }) => {
         >
           Home
         </Link>
-
         <Link
           to="/about"
           className="py-1 px-3 text-lg font-light text-white hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300"
@@ -34,13 +33,14 @@ const Navbar = ({ onMenuClick }) => {
         >
           Skills
         </Link>
-
+        {/*
         <Link
           to="/projects"
           className="py-1 px-3 text-lg font-light text-white hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300"
         >
           Projects
         </Link>
+        */}
       </div>
 
       <div className="flex sm:hidden">
